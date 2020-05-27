@@ -1,0 +1,156 @@
+[
+  {
+    "name": "Curcuit 1: Legs",
+    "program": [
+      {
+        "name": "Squats",
+        "length": 60
+      },
+      {
+        "name": "Left leg calf raises",
+        "instructions": "hold something!",
+        "length": 60
+      },
+      {
+        "name": "Right leg calf raises",
+        "length": 60
+      },
+      {
+        "name": "Lunges (jumps if you want)",
+        "length": 60
+      },
+      {
+        "name": "Glute raises",
+        "instructions": "On your back with legs bent. Push into the floor with your shoulders and your feet and drive the hips up",
+        "length": 60
+      },
+      {
+        "name": "Skiers",
+        "instructions": "side lunges with a jump",
+        "length": 60
+      }
+    ]
+  },
+  {
+    "name": "Break 1",
+    "program": [
+      {
+        "name": "Break",
+        "length": 60
+      }
+    ]
+  },
+  {
+    "name": "Circuit 2: Arms",
+    "program": [
+      {
+        "name": "Pressups",
+        "length": 60
+      },
+      {
+        "name": "Tricep Dips",
+        "length": 60
+      },
+      {
+        "name": "Bear crawl sprints",
+        "instructions": "5 steps up, 5 steps back",
+        "length": 60
+      },
+      {
+        "name": "Crab walk sprints",
+        "instructions": "5 steps up, 5 steps back",
+        "length": 60
+      },
+      {
+        "name": "Army get ups",
+        "instructions": "Moving from press-up plank to forearm plank",
+        "length": 60
+      },
+      {
+        "name": "Pressups, round 2",
+        "instructions": "Yes again!",
+        "length": 60
+      }
+    ]
+  },
+  {
+    "name": "Break 2",
+    "program": [
+      {
+        "name": "Break",
+        "length": 60
+      }
+    ]
+  },
+  {
+    "name": "Circuit 3: Abs",
+    "program": [
+      {
+        "name": "Crunches",
+        "length": 60
+      },
+      {
+        "name": "Vsits",
+        "length": 60
+      },
+      {
+        "name": "Penguins",
+        "length": 60
+      },
+      {
+        "name": "Toe touches",
+        "instructions": "On back with feet in the air, slide your hands along your shins to touch your toes and back down",
+        "length": 60
+      },
+      {
+        "name": "Flutter kicks",
+        "instructions": "On your back, hands under your bum to protect your back, legs straight and flutter your legs from the hip like you’re swimming",
+        "length": 60
+      },
+      {
+        "name": "Bicycles",
+        "length": 60
+      }
+    ]
+  },
+  {
+    "name": "Break 3",
+    "program": [
+      {
+        "name": "Break",
+        "length": 60
+      }
+    ]
+  },
+  {
+    "name": "Circuit 4: Cardio",
+    "program": [
+      {
+        "name": "Starjumps",
+        "length": 60
+      },
+      {
+        "name": "Burpees",
+        "length": 60
+      },
+      {
+        "name": "Run for 8, jump side to side for 4, go again, and again, and again…",
+        "length": 60
+      },
+      {
+        "name": "Pretend skipping rope",
+        "length": 60
+      },
+      {
+        "name": "Mountain climbers",
+        "instructions": "go go go!",
+        "length": 60
+      },
+      {
+        "name": "5 Starjumps then a vertical jump as high as you can, then 5 starjumps etc.",
+        "instructions": "GO GO GO LAST THING",
+        "length": 60
+      }
+    ]
+  }
+]

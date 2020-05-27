@@ -49,7 +49,9 @@ function App() {
           <Program workout={workout} />
         </>
       )}
-      {appState === "running" && <Workout {...set} onDone={onDone} />}
+      {appState === "running" && (
+        <Workout circuitName={circuit.name} {...set} onDone={onDone} />
+      )}
       {appState === "done" && <h1>You're finished - awesome work!</h1>}
     </div>
   );

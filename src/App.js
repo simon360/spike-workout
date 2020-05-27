@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./App.css";
 
 import Program from "./components/Program";
@@ -10,10 +10,18 @@ function App() {
   const [circuitIndex, setCircuitIndex] = useState(0);
   const [setIndex, setSetIndex] = useState(0);
 
+  const [audioObj, setAudioObj] = useState(null);
+
+  useEffect(() => {
+    setAudioObj(new Audio("/beep.mp3"));
+  }, []);
+
   const circuit = workout[circuitIndex];
   const set = circuit.program[setIndex];
 
   const onDone = () => {
+    audioObj.play();
+
     if (setIndex + 1 < circuit.program.length) {
       setSetIndex(setIndex + 1);
     } else if (circuitIndex + 1 < workout.length) {

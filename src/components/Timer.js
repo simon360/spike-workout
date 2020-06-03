@@ -1,6 +1,10 @@
 import React, { useEffect, useMemo, useState } from "react";
 
-const formatTime = (seconds) => `:${String(seconds).padStart(2, "0")}`;
+const formatTime = (seconds) => {
+  const mins = Math.floor(seconds / 60);
+  const secs = seconds % 60;
+  return `${mins}:${String(secs).padStart(2, "0")}`;
+};
 
 export default function Timer({ length, key, onDone }) {
   const [completesAt, setCompletesAt] = useState(

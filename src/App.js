@@ -4,10 +4,13 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 import Program from "./components/Program";
 import Workout from "./components/Workout";
-import workout from "./workout.json";
+
+import workout1 from "./workout.json";
+import workout2 from "./workout2.json";
 
 function App() {
   const [appState, setAppState] = useState("ready");
+  const [selectedWorkout, setSelectedWorkout] = useState(null);
   const [circuitIndex, setCircuitIndex] = useState(0);
   const [setIndex, setSetIndex] = useState(0);
 
@@ -20,15 +23,15 @@ function App() {
     setNoSleep(new NoSleep());
   }, []);
 
-  const circuit = workout[circuitIndex];
-  const set = circuit.program[setIndex];
+  const circuit = selectedWorkout && selectedWorkout[circuitIndex];
+  const set = circuit && circuit.program[setIndex];
 
   const onDone = () => {
     audioObj.play();
 
     if (setIndex + 1 < circuit.program.length) {
       setSetIndex(setIndex + 1);
-    } else if (circuitIndex + 1 < workout.length) {
+    } else if (circuitIndex + 1 < selectedWorkout.length) {
       setSetIndex(0);
       setCircuitIndex(circuitIndex + 1);
     } else {
@@ -42,6 +45,27 @@ function App() {
   return (
     <div className="App">
       {appState === "ready" && (
+        <>
+          <h1>Select a workout</h1>
+          <button
+            onClick={() => {
+              setSelectedWorkout(workout1);
+              setAppState("selected");
+            }}
+          >
+            Workout 1 (May 26)
+          </button>
+          <button
+            onClick={() => {
+              setSelectedWorkout(workout2);
+              setAppState("selected");
+            }}
+          >
+            Workout 2 (June 2)
+          </button>
+        </>
+      )}
+      {appState === "selected" && (
         <>
           <button
             onClick={() => {
@@ -57,7 +81,7 @@ function App() {
           >
             Start workout
           </button>
-          <Program workout={workout} />
+          <Program workout={selectedWorkout} />
         </>
       )}
       {appState === "running" && (

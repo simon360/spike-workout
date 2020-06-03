@@ -1,0 +1,235 @@
+[
+  {
+    "name": "Warm Up",
+    "program": [
+      {
+        "name": "Warm Up",
+        "instructions": "Starjumps x20, shoulder rolls x8, squats x8",
+        "length": 240
+      }
+    ]
+  },
+  {
+    "name": "Circuit 1",
+    "program": [
+      {
+        "name": "Squats",
+        "length": 45
+      },
+      {
+        "name": "Break 1",
+        "length": 15
+      },
+      {
+        "name": "Pressups",
+        "length": 45
+      },
+      {
+        "name": "Break 2",
+        "length": 15
+      },
+      {
+        "name": "Starjumps",
+        "length": 45
+      },
+      {
+        "name": "Break 3",
+        "length": 15
+      },
+      {
+        "name": "Glute Bridges",
+        "length": 45
+      },
+      {
+        "name": "Break 4",
+        "length": 15
+      },
+      {
+        "name": "Kickouts",
+        "length": 45
+      },
+      {
+        "name": "Break 5",
+        "length": 15
+      },
+      {
+        "name": "High Knees",
+        "length": 45
+      }
+    ]
+  },
+  {
+    "name": "Mid-Circuit Break 1",
+    "program": [
+      {
+        "name": "Break",
+        "length": 60
+      }
+    ]
+  },
+  {
+    "name": "Circuit 2",
+    "program": [
+      {
+        "name": "Squats",
+        "length": 45
+      },
+      {
+        "name": "Break 1",
+        "length": 15
+      },
+      {
+        "name": "Army get-ups",
+        "length": 45
+      },
+      {
+        "name": "Break 2",
+        "length": 15
+      },
+      {
+        "name": "Skipping (with a pretend rope)",
+        "length": 45
+      },
+      {
+        "name": "Break 3",
+        "length": 15
+      },
+      {
+        "name": "Glute bridges",
+        "length": 45
+      },
+      {
+        "name": "Break 4",
+        "length": 15
+      },
+      {
+        "name": "Tricep Dips",
+        "length": 45
+      },
+      {
+        "name": "Break 5",
+        "length": 15
+      },
+      {
+        "name": "Run for 8, leteral jump jump for 4",
+        "length": 45
+      }
+    ]
+  },
+  {
+    "name": "Mid-Circuit Break 2",
+    "program": [
+      {
+        "name": "Break",
+        "length": 60
+      }
+    ]
+  },
+  {
+    "name": "Circuit 1, repeat",
+    "program": [
+      {
+        "name": "Squats",
+        "length": 45
+      },
+      {
+        "name": "Break 1",
+        "length": 15
+      },
+      {
+        "name": "Pressups",
+        "length": 45
+      },
+      {
+        "name": "Break 2",
+        "length": 15
+      },
+      {
+        "name": "Starjumps",
+        "length": 45
+      },
+      {
+        "name": "Break 3",
+        "length": 15
+      },
+      {
+        "name": "Glute Bridges",
+        "length": 45
+      },
+      {
+        "name": "Break 4",
+        "length": 15
+      },
+      {
+        "name": "Kickouts",
+        "length": 45
+      },
+      {
+        "name": "Break 5",
+        "length": 15
+      },
+      {
+        "name": "High Knees",
+        "length": 45
+      }
+    ]
+  },
+  {
+    "name": "Mid-Circuit Break 3",
+    "program": [
+      {
+        "name": "Break",
+        "length": 60
+      }
+    ]
+  },
+  {
+    "name": "Circuit 2, repeat",
+    "program": [
+      {
+        "name": "Squats",
+        "length": 45
+      },
+      {
+        "name": "Break 1",
+        "length": 15
+      },
+      {
+        "name": "Army get-ups",
+        "length": 45
+      },
+      {
+        "name": "Break 2",
+        "length": 15
+      },
+      {
+        "name": "Skipping (with a pretend rope)",
+        "length": 45
+      },
+      {
+        "name": "Break 3",
+        "length": 15
+      },
+      {
+        "name": "Glute bridges",
+        "length": 45
+      },
+      {
+        "name": "Break 4",
+        "length": 15
+      },
+      {
+        "name": "Tricep Dips",
+        "length": 45
+      },
+      {
+        "name": "Break 5",
+        "length": 15
+      },
+      {
+        "name": "Run for 8, leteral jump jump for 4",
+        "length": 45
+      }
+    ]
+  }
+]

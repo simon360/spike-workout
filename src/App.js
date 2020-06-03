@@ -2,6 +2,7 @@ import NoSleep from "nosleep.js";
 import React, { useState, useEffect } from "react";
 
 import "./App.css";
+import Complete from "./components/Complete";
 import Program from "./components/Program";
 import Workout from "./components/Workout";
 
@@ -87,7 +88,7 @@ function App() {
       {appState === "running" && (
         <Workout circuitName={circuit.name} {...set} onDone={onDone} />
       )}
-      {appState === "done" && <h1>You're finished - awesome work!</h1>}
+      {appState === "done" && <Complete />}
     </div>
   );
 }

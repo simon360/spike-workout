@@ -43,7 +43,18 @@ function App() {
     <div className="App">
       {appState === "ready" && (
         <>
-          <button onClick={() => setAppState("running") && noSleep.enable()}>
+          <button
+            onClick={() => {
+              setAppState("running");
+
+              // Attempt to keep the screen on.
+              noSleep.enable();
+
+              // Attempt to play the ding. iOS won't play it unless the first play
+              // was through a user initiated event.
+              audioObj.play();
+            }}
+          >
             Start workout
           </button>
           <Program workout={workout} />
